@@ -1,0 +1,170 @@
+--- PAGE 1 ---
+Based on the requirements, this role is primarily a Front-End Developer 
+(HTML/CSS/JavaScript) position focused on converting designs into 
+responsive, production-ready web pages. 
+ 
+O2H - Mock Front-End Developer Assessment  
+(2 Hours) 
+Task: Convert Figma Design into a Responsive Landing Page 
+Scenario 
+You are given a Figma design for a SaaS product called TaskFlow. 
+Your task is to convert the design into a fully responsive web page. 
+ 
+Deliverables 
+Technologies 
+Mandatory: 
+ HTML5 
+ CSS3 / SCSS 
+ JavaScript (ES6) 
+Optional: 
+ Bootstrap / Tailwind 
+ React 
+ 
+  
+--- PAGE 2 ---
+Section 1: Layout Implementation (40 Marks) 
+Create the following sections: 
+Hero Section 
+Contains: 
+ Navigation Bar 
+ Logo 
+ Heading 
+ Sub-heading 
+ CTA Button 
+ Hero Image 
+ 
+Features Section 
+Display 6 feature cards. 
+Each card should contain: 
+ Icon 
+ Feature Title 
+ Description 
+ 
+Pricing Section 
+3 pricing cards: 
+ Starter 
+ Professional 
+ Enterprise 
+Highlight the recommended plan. 
+ 
+Contact Section 
+Form Fields: 
+--- PAGE 3 ---
+ Name 
+ Email 
+ Message 
+Validation required. 
+ 
+Section 2: Responsive Design (20 Marks) 
+The website must work properly on: 
+Mobile (<768px) 
+ Hamburger menu 
+ Single-column layout 
+Tablet 
+ Two-column layout 
+Desktop 
+ Full layout 
+Use: 
+ Flexbox 
+ CSS Grid 
+ Media Queries 
+ 
+Section 3: JavaScript Functionality (15 Marks) 
+Implement: 
+Mobile Menu Toggle 
+Click hamburger icon. 
+ 
+  
+--- PAGE 4 ---
+Form Validation 
+Validate: 
+ Required fields 
+ Email format 
+Display error messages. 
+ 
+Dark Mode Toggle 
+Switch between: 
+ Light Theme 
+ Dark Theme 
+Persist preference using localStorage. 
+ 
+Section 4: Accessibility (10 Marks) 
+Implement: 
+ Semantic HTML 
+ ARIA labels 
+ Alt text for images 
+ Keyboard navigation 
+ Proper color contrast 
+ 
+Section 5: Performance Optimization (10 Marks) 
+Apply: 
+ Minified CSS/JS 
+ Optimized images 
+ Lazy loading 
+ Efficient DOM manipulation 
+ 
+--- PAGE 5 ---
+Section 6: Git Workflow (5 Marks) 
+Git commits: 
+Initial layout setup 
+Responsive navbar completed 
+Feature section added 
+Form validation implemented 
+Final optimization and cleanup 
+ 
+Bonus Challenge (+10 Marks) 
+API Integration 
+Consume data from: 
+https://jsonplaceholder.typicode.com/posts 
+Display: 
+ Latest 6 blog posts 
+Show: 
+ Loading State 
+ Error State 
+ 
+Folder Structure 
+frontend-task/ 
+ 
+├── index.html 
+├── css/ 
+│   ├── style.css 
+│   └── responsive.css 
+├── js/ 
+│   └── app.js 
+├── images/ 
+├── README.md 
+└── .gitignore 
+ 
+--- PAGE 6 ---
+Evaluation Rubric (100 Marks) 
+Criteria Marks 
+HTML Structure & Semantics 15 
+CSS Layout & Responsiveness 25 
+JavaScript Functionality 15 
+Accessibility 10 
+Performance Optimization 10 
+API Integration 10 
+Git Usage 5 
+Code Quality 10 
+ 
+Advanced Industry-Level Alternative (2.5 Hours) 
+This task closely aligns with o2h's requirements because it tests HTML5 
+semantics, CSS/SCSS expertise, responsiveness, JavaScript skills, 
+accessibility, API integration, Git workflow, and the ability to create pixel -
+perfect interfaces from designs. 
+Build a "Job Opportunities Portal" Front-End 
+Features: 
+ Job Listing Page 
+ Search Jobs 
+ Filter by Location 
+ Filter by Company 
+ Pagination 
+ Responsive UI 
+ Fetch data from Mock API 
+ Dark Mode 
+ Loading Skeletons 
+ Error Handling 
+Submission 
+ GitHub Repository 
+ Live Demo (Netlify/Vercel) 
+ README with setup instructions 

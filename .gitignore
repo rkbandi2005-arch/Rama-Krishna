@@ -1,0 +1,9 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Extracted content helper
+pdf_content.txt
+*.pyc
+__pycache__/

@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskFlow | Streamline Your Workflow & Amplify Impact</title>
+    
+    <!-- Meta Descriptions for SEO -->
+    <meta name="description" content="TaskFlow is the premium collaborative task management software for modern SaaS teams. Bring your tasks, team members, and tools together under one sleek interface.">
+    <meta name="keywords" content="task management, saas, project management, workflow planner, dark mode task tool">
+    
+    <!-- Link Master & Responsive Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body class="dark-theme">
+
+    <!-- Sticky Glassmorphic Header -->
+    <header class="header">
+        <div class="container nav-container">
+            <!-- Brand Logo -->
+            <a href="#" class="logo" aria-label="TaskFlow Homepage">
+                <span class="logo-icon" aria-hidden="true">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                    </svg>
+                </span>
+                TaskFlow
+            </a>
+
+            <!-- Navigation Links -->
+            <nav id="nav-menu" class="nav-menu" aria-label="Main Navigation">
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#pricing" class="nav-link">Pricing</a>
+                <a href="#blog" class="nav-link">Blog</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+
+            <!-- Navigation Actions -->
+            <div class="nav-actions">
+                <!-- CTA Button -->
+                <a href="#pricing" class="btn btn-primary">Get Started</a>
+
+                <!-- Mobile Hamburger Button -->
+                <button id="hamburger-btn" class="hamburger" aria-label="Open Navigation Menu" aria-controls="nav-menu" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main>
+        
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <span class="badge">Introducing TaskFlow 2.0</span>
+                    <h1>Streamline Your <span>Workflow</span>. Amplify Your Impact.</h1>
+                    <p>TaskFlow brings all your tasks, team members, and documents together in one cohesive, beautiful workspace. Say goodbye to fragmented tools and hello to maximum productivity.</p>
+                    <div class="hero-buttons">
+                        <a href="#pricing" class="btn btn-primary">Start Free Trial</a>
+                        <a href="#features" class="btn btn-secondary">Learn More</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <div class="hero-glow" aria-hidden="true"></div>
+                    <img src="images/hero.png" alt="Sleek dashboard view of the TaskFlow application showing tasks progress charts and team collaborations boards" class="hero-image" width="580" height="326">
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="badge">Powerhouse Features</span>
+                    <h2>Designed for modern high-performance teams</h2>
+                    <p>Everything you need to plan, track, and execute your daily deliverables without clutter or complications.</p>
+                </div>
+                
+                <div class="features-grid">
+                    <!-- Feature 1: Drag & Drop Kanban -->
+                    <article class="card feature-card">
+                        <div class="feature-icon-wrapper" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                                <line x1="9" y1="3" x2="9" y2="21"/>
+                                <line x1="15" y1="3" x2="15" y2="21"/>
+                            </svg>
+                        </div>
+                        <h3>Kanban Boards</h3>
+                        <p>Organize, prioritize, and reorder tasks effortlessly with our lightning-fast drag-and-drop workflow panels.</p>
+                    </article>
+
+                    <!-- Feature 2: Real-time Collab -->
+                    <article class="card feature-card">
+                        <div class="feature-icon-wrapper" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                                <circle cx="9" cy="7" r="4"/>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                            </svg>
+                        </div>
+                        <h3>Team Sync</h3>
+                        <p>Collaborate in real time with shared docs, instant comments, notifications, and @mention tagging.</p>
+                    </article>
+
+                    <!-- Feature 3: Smart Time Tracking -->
+                    <article class="card feature-card">
+                        <div class="feature-icon-wrapper" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <polyline points="12 6 12 12 16 14"/>
+                            </svg>
+                        </div>
+                        <h3>Time Tracking</h3>
+                        <p>Analyze bottlenecks with embedded timers that track task durations automatically and build reports.</p>
+                    </article>
+
+                    <!-- Feature 4: Deep Integrations -->
+                    <article class="card feature-card">
+                        <div class="feature-icon-wrapper" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/>
+                                <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/>
+                            </svg>
+                        </div>
+                        <h3>Connected Apps</h3>
+                        <p>Sync integrations with Slack, GitHub, Figma, and Google Workspace out of the box in minutes.</p>
+                    </article>
+
+                    <!-- Feature 5: Advanced Analytics -->
+                    <article class="card feature-card">
+                        <div class="feature-icon-wrapper" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="18" y1="20" x2="18" y2="10"/>
+                                <line x1="12" y1="20" x2="12" y2="4"/>
+                                <line x1="6" y1="20" x2="6" y2="14"/>
+                            </svg>
+                        </div>
+                        <h3>Productivity Metrics</h3>
+                        <p>Track burn-down curves, team velocities, and project milestones with simple dashboard graphs.</p>
+                    </article>
+
+                    <!-- Feature 6: Cloud Synchronization -->
+                    <article class="card feature-card">
+                        <div class="feature-icon-wrapper" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/>
+                            </svg>
+                        </div>
+                        <h3>Cloud Security</h3>
+                        <p>Enjoy end-to-end encrypted continuous sync, ensuring your logs are accessible, back-up secured.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section id="pricing" class="section pricing-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="badge">Pricing Plans</span>
+                    <h2>Simple, transparent pricing</h2>
+                    <p>Choose the best tier that aligns with your team's size and workflows. Cancel anytime.</p>
+                </div>
+
+                <!-- Monthly/Yearly Toggle switch -->
+                <div class="pricing-toggle">
+                    <span class="toggle-label" id="monthly-label">Monthly</span>
+                    <label class="toggle-switch-wrapper" aria-label="Toggle annual pricing discount">
+                        <input type="checkbox" id="billing-toggle" class="toggle-switch-checkbox">
+                        <div class="toggle-switch-container"></div>
+                    </label>
+                    <span class="toggle-label" id="yearly-label">Yearly</span>
+                    <span class="toggle-discount-badge" aria-label="Save twenty percent on yearly plans">Save 20%</span>
+                </div>
+
+                <!-- Pricing Cards Grid -->
+                <div class="pricing-grid">
+                    
+                    <!-- Starter Plan -->
+                    <article class="card pricing-card">
+                        <div class="pricing-header">
+                            <h3 class="pricing-plan-title">Starter</h3>
+                            <p class="pricing-plan-desc">For small teams getting started</p>
+                            <div class="pricing-cost">
+                                <span id="starter-price" class="pricing-amount">$15</span>
+                                <span class="pricing-period">/month</span>
+                            </div>
+                        </div>
+                        
+                        <ul class="pricing-features-list">
+                            <li class="pricing-feature-item">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                </svg>
+                                Up to 5 Active Members
+                            </li>
+                            <li class="pricing-feature-item">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                </svg>
+                                3 Kanban Project Boards
+                            </li>
+                            <li class="pricing-feature-item">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                </svg>
+                                5GB Encrypted Cloud Storage
+                            </li>
+                            <li class="pricing-feature-item disabled">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"/>
+                                </svg>
+                                Advanced Analytics Tools
+                            </li>
+                            <li class="pricing-feature-item disabled">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"/>
+                                </svg>
+                                Priority Customer Support
+                            </li>
+                        </ul>
+
+                        <a href="#contact" class="btn btn-secondary" style="width: 100%; margin-top: auto;">Get Started</a>
+                    </article>
+
+                    <!-- Professional Plan (Recommended) -->
+                    <article class="card pricing-card recommended">
+                        <span class="pricing-recommended-label">Most Popular</span>
+                        <div class="pricing-header">
+                            <h3 class="pricing-plan-title">Professional</h3>
+                            <p class="pricing-plan-desc">Perfect scale for growing agencies</p>
+                            <div class="pricing-cost">
+                                <span id="pro-price" class="pricing-amount">$39</span>
+                                <span class="pricing-period">/month</span>
+                            </div>
+                        </div>
+
+                        <ul class="pricing-features-list">
+                            <li class="pricing-feature-item">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                </svg>
+                                Up to 25 Active Members
+                            </li>
+                            <li class="pricing-feature-item">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                </svg>
+                                Unlimited Project Boards
+                            </li>
+                            <li class="pricing-feature-item">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                </svg>
+                                50GB Cloud Storage Capacity
+                            </li>
+                            <li class="pricing-feature-item">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                </svg>
+                                Advanced Analytics Tools
+                            </li>
+                            <li class="pricing-feature-item disabled">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"/>
+                                </svg>
+                                Custom SSO Integration
+                            </li>
+                        </ul>
+
+                        <a href="#contact" class="btn btn-primary" style="width: 100%; margin-top: auto;">Start Free Trial</a>
+                    </article>
+
+                    <!-- Enterprise Plan -->
+                    <article class="card pricing-card">
+                        <div class="pricing-header">
+                            <h3 class="pricing-plan-title">Enterprise</h3>
+                            <p class="pricing-plan-desc">For larger corporate operations</p>
+                            <div class="pricing-cost">
+                                <span id="enterprise-price" class="pricing-amount">$89</span>
+                                <span class="pricing-period">/month</span>
+                            </div>
+                        </div>
+
+                        <ul class="pricing-features-list">
+                            <li class="pricing-feature-item">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                </svg>
+                                Unlimited Collaborators
+                            </li>
+                            <li class="pricing-feature-item">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                </svg>
+                                Unlimited Project Boards
+                            </li>
+                            <li class="pricing-feature-item">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                </svg>
+                                500GB Encrypted Storage
+                            </li>
+                            <li class="pricing-feature-item">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                </svg>
+                                Premium Analytics & Reports
+                            </li>
+                            <li class="pricing-feature-item">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                </svg>
+                                24/7 Dedicated Support Specialist
+                            </li>
+                        </ul>
+
+                        <a href="#contact" class="btn btn-secondary" style="width: 100%; margin-top: auto;">Contact Sales</a>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog Section (Dynamic API Posts) -->
+        <section id="blog" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="badge">Updates & Insights</span>
+                    <h2>Latest news from TaskFlow</h2>
+                    <p>Read expert articles on project planning, team productivity, and tool synchronization workflows.</p>
+                </div>
+
+                <!-- API posts target container -->
+                <div id="blog-posts-container" class="blog-grid" aria-live="polite">
+                    <!-- Skeletons will be injected here during initial JavaScript loader execution -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section pricing-section">
+            <div class="container">
+                <div class="contact-grid">
+                    
+                    <!-- Contact Information Column -->
+                    <div class="contact-info">
+                        <span class="badge">Get In Touch</span>
+                        <h3>Let's optimize your workspace together</h3>
+                        <p>Have questions about TaskFlow capabilities, integrations, or custom enterprise solutions? Fill out the form, and our engineering team will get back to you inside 24 hours.</p>
+                        
+                        <div class="contact-details-list">
+                            <div class="contact-detail-item">
+                                <div class="contact-detail-icon" aria-hidden="true">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                        <polyline points="22,6 12,13 2,6"/>
+                                    </svg>
+                                </div>
+                                <div class="contact-detail-text">
+                                    <h4>Email Support</h4>
+                                    <p>support@taskflow.io</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-detail-item">
+                                <div class="contact-detail-icon" aria-hidden="true">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                        <circle cx="12" cy="10" r="3"/>
+                                    </svg>
+                                </div>
+                                <div class="contact-detail-text">
+                                    <h4>Office Headquarters</h4>
+                                    <p>100 Innovation Way, Silicon Valley, CA</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-detail-item">
+                                <div class="contact-detail-icon" aria-hidden="true">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2A19.79 19.79 0 0 1 2 5.18 2 2 0 0 1 4 3h3a2 2 0 0 1 2 1.72 12.4 12.4 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 10.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.4 12.4 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                                    </svg>
+                                </div>
+                                <div class="contact-detail-text">
+                                    <h4>Phone Support</h4>
+                                    <p>+91 74168 06160</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form Card Column -->
+                    <div class="card contact-form">
+                        <form id="contact-form" novalidate>
+                            <div class="form-group">
+                                <label for="name" class="form-label">Full Name</label>
+                                <input type="text" id="name" name="name" class="form-control" placeholder="Ram" required aria-required="true">
+                                <div id="name-error" class="error-msg" role="alert"></div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email Address</label>
+                                <input type="email" id="email" name="email" class="form-control" placeholder="Ram1811@example.com" required aria-required="true">
+                                <div id="email-error" class="error-msg" role="alert"></div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message" class="form-label">Your Message</label>
+                                <textarea id="message" name="message" class="form-control" placeholder="Tell us about your team size, projects, and goals..." required aria-required="true"></textarea>
+                                <div id="message-error" class="error-msg" role="alert"></div>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Success Toast Notification Toast -->
+    <div id="success-toast" class="toast" role="alert" aria-live="assertive">
+        <div class="toast-icon">
+            <svg viewBox="0 0 20 20" fill="currentColor" width="16" height="16">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+            </svg>
+        </div>
+        <div class="toast-body">
+            <h5>Message Sent!</h5>
+            <p>We'll get back to you shortly.</p>
+        </div>
+    </div>
+
+    <!-- Page Footer -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="#" class="logo" aria-label="TaskFlow Homepage">
+                    <span class="logo-icon" aria-hidden="true">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                        </svg>
+                    </span>
+                    TaskFlow
+                </a>
+                <p>Bringing collaboration and efficiency to modern SaaS product engineering teams. Beautiful design, frictionless workflows.</p>
+            </div>
+            
+            <div class="footer-links-col">
+                <h4>Product</h4>
+                <ul class="footer-links-list">
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#">Security</a></li>
+                    <li><a href="#">Roadmap</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links-col">
+                <h4>Resources</h4>
+                <ul class="footer-links-list">
+                    <li><a href="#blog">Blog Articles</a></li>
+                    <li><a href="#">Documentation</a></li>
+                    <li><a href="#">System Status</a></li>
+                    <li><a href="#">API Documentation</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links-col">
+                <h4>Company</h4>
+                <ul class="footer-links-list">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#contact">Contact Support</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container footer-bottom">
+            <p>&copy; 2026 TaskFlow Inc. All rights reserved.</p>
+            <div class="footer-socials">
+                <a href="#" class="footer-social-link" aria-label="Twitter">
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/>
+                    </svg>
+                </a>
+                <a href="#" class="footer-social-link" aria-label="LinkedIn">
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                        <rect x="2" y="9" width="4" height="12"/>
+                        <circle cx="4" cy="4" r="2"/>
+                    </svg>
+                </a>
+                <a href="#" class="footer-social-link" aria-label="GitHub">
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- App Script -->
+    <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,242 @@
+/* ==========================================================================
+   TaskFlow SaaS Landing Page Responsiveness Rules
+   ========================================================================== */
+
+/* Tablet & Smaller Layout Adjustments (Max-width: 1023px) */
+@media (max-width: 1023px) {
+    .container {
+        padding: 0 32px;
+    }
+    
+    .section {
+        padding: 80px 0;
+    }
+
+    /* Hero Section */
+    .hero {
+        padding-top: 140px;
+        padding-bottom: 60px;
+    }
+
+    .hero-grid {
+        gap: 32px;
+    }
+
+    .hero-content h1 {
+        font-size: 2.75rem;
+    }
+
+    .hero-content p {
+        font-size: 1.1rem;
+        margin-bottom: 30px;
+    }
+
+    /* Features Section */
+    .features-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 24px;
+    }
+
+    /* Pricing Section */
+    .pricing-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+
+    .pricing-card {
+        padding: 36px 24px;
+    }
+
+    .pricing-amount {
+        font-size: 2.5rem;
+    }
+
+    /* Blog Section */
+    .blog-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 24px;
+    }
+
+    /* Contact Section */
+    .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 48px;
+    }
+
+    .contact-info {
+        max-width: 100%;
+    }
+
+    /* Footer Section */
+    .footer-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
+}
+
+/* Mobile Layout Adjustments (Max-width: 767px) */
+@media (max-width: 767px) {
+    .container {
+        padding: 0 20px;
+    }
+
+    .section {
+        padding: 60px 0;
+    }
+
+    .section-header {
+        margin-bottom: 40px;
+    }
+
+    .section-header h2 {
+        font-size: 2rem;
+    }
+
+    /* Navigation & Hamburger Menu */
+    .hamburger {
+        display: flex;
+    }
+
+    .nav-menu {
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        width: 100%;
+        height: calc(100vh - 80px);
+        background-color: var(--bg-secondary);
+        border-top: 1px solid var(--border-color);
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding-top: 60px;
+        gap: 40px;
+        transition: left 0.4s cubic-bezier(0.16, 1, 0.3, 1), var(--theme-transition);
+        z-index: 999;
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.05);
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-link {
+        font-size: 1.25rem;
+    }
+
+    .nav-actions {
+        gap: 12px;
+    }
+
+    .nav-actions .btn {
+        display: none; /* Hide primary nav button on mobile to save space */
+    }
+
+    /* Hero Section */
+    .hero {
+        padding-top: 120px;
+        padding-bottom: 40px;
+        background: radial-gradient(circle at 50% 15%, var(--primary-glow) 0%, transparent 50%);
+    }
+
+    .hero-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+        text-align: center;
+    }
+
+    .hero-content {
+        max-width: 100%;
+    }
+
+    .hero-content h1 {
+        font-size: 2.25rem;
+        margin-bottom: 16px;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+        margin-bottom: 28px;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+    }
+
+    .hero-buttons .btn {
+        width: 100%;
+    }
+
+    .hero-image {
+        transform: none !important;
+        max-width: 100%;
+    }
+
+    .hero-image-wrapper:hover .hero-image {
+        transform: none !important;
+    }
+
+    /* Features Section */
+    .features-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .feature-card {
+        padding: 32px 24px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature-icon-wrapper {
+        margin-bottom: 20px;
+    }
+
+    /* Pricing Section */
+    .pricing-toggle {
+        margin-bottom: 36px;
+    }
+
+    .pricing-grid {
+        grid-template-columns: 1fr;
+        gap: 28px;
+    }
+
+    .pricing-card.recommended {
+        transform: none;
+    }
+
+    .pricing-card.recommended:hover {
+        transform: translateY(-6px);
+    }
+
+    /* Blog Section */
+    .blog-grid {
+        grid-template-columns: 1fr;
+        gap: 28px;
+    }
+
+    /* Contact Section */
+    .contact-form {
+        padding: 24px;
+    }
+
+    .form-group-row {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    /* Footer Section */
+    .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 32px;
+        margin-bottom: 40px;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+}
